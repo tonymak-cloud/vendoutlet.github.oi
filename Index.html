@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>Page title</title>
+<style>
+table{
+border:2px solid black;
+border-collapse:collapse;
+}
+td, th{
+border:2px solid black;
+padding:4px;
+}
+@media(min-width:600px){
+body{
+background-color:red}
+table{
+border:3px solid blue;}
+}
+</style>
+</head>
+<body>
+<table>
+				<thead>
+								<tr>
+												<th>Car Name</th>
+												<th>Color</th>
+												<th>Average speed</th>
+												<th>Maximum speed</th>
+								</tr>
+				</thead>
+				<tbody>
+								<td>Mazda</td>
+								<td>Red</td>
+								<td>180 km/h</td>
+								<td>260 km/h</td>
+				</tbody>
+				<tbody>
+								<td>BMW</td>
+								<td>Blue</td>
+								<td>200 km/h</td>
+								<td>300 km/h</td>
+				</tbody>
+</table>				
+<input name="country" list="countries" placeholder="country">
+<datalist id="countries">
+        <option value="south africa">
+        <option value="lesotho"></option>
+        <option value="zimbabwe"></option>
+        <option value="namibia"></option>
+       <option value="botswana"></option> 
+</datalist>
+<div>
+favorite car
+<input name="car" type="radio" value="bmw">bmw
+<input name="car" type="radio" value="vw">vw
+<input name="car" type="radio" value="mercedes">Mercedes 
+</div>
+</body>
+</html>
